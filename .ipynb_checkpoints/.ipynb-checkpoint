@@ -2,18 +2,9 @@
  "cells": [
   {
    "cell_type": "code",
-   "execution_count": 2,
+   "execution_count": null,
    "metadata": {},
-   "outputs": [
-    {
-     "name": "stdin",
-     "output_type": "stream",
-     "text": [
-      "please enter a string test\n",
-      "please enter an integer:  1\n"
-     ]
-    }
-   ],
+   "outputs": [],
    "source": [
     "stringInput = input(\"please enter a string\")\n",
     "\n",
@@ -26,18 +17,11 @@
     "isNotInteger = True;\n",
     "while isNotInteger:\n",
     "    try:\n",
-    "        n = int(intInput)\n",
+    "        n = int(intInput)a\n",
     "        isNotInteger = False\n",
     "    except:\n",
-    "        intInput = input(\"this aint no integer\")\n"
+    "        intInput = input(\"this aint no integer\")"
    ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {},
-   "outputs": [],
-   "source": []
   }
  ],
  "metadata": {
